@@ -45,6 +45,12 @@ function setup() {
           wheel4 = new TankerWheel(190,362,17);
           wheel5 = new TankerWheel(230,362,17);
 
+          for(var i = 0; i < 200; i++) {
+	  	p1 = new SideChain(600,200);
+		balls.push(p1);
+		World.add(world,p1);
+	  }
+
 }
 
 
@@ -83,6 +89,10 @@ function draw() {
           wheel3.display();
           wheel4.display();
           wheel5.display();    
+
+	  for(var j = 0; j < balls.length; j++) {
+	  	balls[j].show();
+	  }
 }
 
 
