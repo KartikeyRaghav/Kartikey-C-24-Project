@@ -93,10 +93,6 @@ function draw() {
 	  for(var j = 0; j < balls.length; j++) {
 	  	balls[j].show();
 	  }
-
-	  createEdgeSprite();
-
-	  drawSprites();
 }
 
 
