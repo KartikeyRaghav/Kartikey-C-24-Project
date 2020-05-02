@@ -45,7 +45,7 @@ function setup() {
           wheel4 = new TankerWheel(190,362,17);
           wheel5 = new TankerWheel(230,362,17);
 
-          for(var i = 0; i < 50; i++) {
+          for(var i = 0; i < 200; i++) {
 	  	p1 = new SideChain(random(300,1100),random(0, 200),17);
 		balls.push(p1);
 		World.add(world,p1);
